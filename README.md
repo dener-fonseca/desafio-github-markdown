@@ -1,16 +1,22 @@
 # Desafio Github Markdown
 
-O desafio proposto pela DIO consiste em escrever um texto no formato Markdown .md utilizando suas principais tags e sintaxes.
-
----
-
-## Introdução
+O desafio proposto pela DIO consiste em escrever um texto no formato Markdown utilizando suas principais tags e sintaxes.
 
 Este documento demonstrará algumas das principais **tags e sintaxes do Markdown utilizadas no GitHub**.
 
 ---
 
-## 1. Títulos (Headings)
+## Introdução
+
+Markdown é uma linguagem de marcação leve (Lightweight Markup Language) usada para formatar textos usando símbolos simples como `#`, `*`, `|` entre outros.
+
+O markdown utiliza a extensão de arquivo `.md` que é bastante utilizada em documentação de projetos, arquivos README, wikis e guias técnicos.
+
+Ela foi criada em 2004 pelo programador John Gruber com colaboração do também programador Aaron Swartz.
+
+---
+
+## 1. Títulos
 
 No Markdown usamos o símbolo `#` para criar títulos que possuem 6 níveis.
 
@@ -38,21 +44,51 @@ Quanto mais `#`, menor será o título.
 
 ---
 
-## 2. Texto em Negrito e Itálico
+## 2. Formatação de Texto
 
 Podemos destacar palavras no texto com o uso das seguintes tags:
 
-- **Negrito** usando `**texto**`
-- *Itálico* usando `*texto*`
-- ***Negrito e itálico*** usando `***texto***`
+### Negrito
+
+Usamos `**` entre palavras.
 
 Exemplo:
 
-Este texto tem **negrito**, *itálico* e ***negrito com itálico***.
+**Negrito**
+
+Como fica a sintaxe:
+
+`**Negrito**`
+
+### Itálico
+
+Usamos `*` entre palavras.
+
+Exemplo:
+
+*Itálico*
+
+Como fica a sintaxe:
+
+`*Itálico*`
+
+### Negrito e Itálico
+
+Usamos `***` entre palavras.
+
+Exemplo:
+
+***Negrito e Itálico***
+
+Como fica a sintaxe:
+
+`***Negrito e Itálico***`
 
 ---
 
 ## 3. Listas
+
+Podemos criar listas no texto com o uso das seguintes tags:
 
 ### Lista não ordenada
 
@@ -94,7 +130,7 @@ Como é a sintaxe:
 
 ## 4. Links Externos
 
-Para criar links usamos a seguinte sintaxe Palavra entre `[]` e link entre `()`.
+Para criar links usamos a seguinte sintaxe palavra entre `[]` e link entre `()`.
 
 Exemplo:
 
@@ -122,6 +158,8 @@ Como é a sintaxe:
 
 ## 6. Código
 
+Códigos devem ser colocados entre crases para ter sua formatação anulada em textos em formato markdown.
+
 ### Código em linha
 
 Usamos crase entre o trecho de código:
@@ -138,7 +176,7 @@ Como é a sintaxe:
 
 ### Bloco de código
 
-Usamos três crases entre o trecho de código:
+Usamos três crases entre o trecho de código, porém em linhas separadas:
 
 ```
 print("Hello World")
@@ -158,7 +196,7 @@ print("Olá mundo")
 
 ## 7. Citações
 
-Para criar citações usamos `>`.
+Para criar citações usamos `>` na frente do trecho de texto.
 
 >Markdown é muito utilizado para documentação em projetos de programação.
 
@@ -190,7 +228,7 @@ Como é a sintaxe:
 
 ## 9. Linha horizontal
 
-Usamos três traços `---`.
+Usamos três traços `---` para criar uma linha horizontal.
 
 Exemplo:
 
