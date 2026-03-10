@@ -455,8 +455,8 @@ Como é a sintaxe:
 
 Como é a sintaxe:
 
-`![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-`
+`![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)`
+
 ---
 
 ## 17. Observações
