@@ -471,9 +471,11 @@ Para evitar que um símbolo seja interpretado como formatação, podemos usar a 
 
 Exemplo de uso da sintaxe:
 
+```
 \# Isto não será interpretado como título  
 
 \* Isto não será interpretado como itálico  
+```
 
 Assim o Markdown mostra os símbolos normalmente sem aplicar a formatação.
 
@@ -483,7 +485,7 @@ A **crase (`)** permite mostrar código ou sintaxe sem aplicar formatação.
 
 Exemplo da sintaxe:
 
-Use `#` para criar títulos.
+`# Isso seria um título sem não tivesse crase.`
 
 Esse recurso é muito usado para explicar **comandos, funções ou sintaxe de programação**.
 
@@ -555,7 +557,7 @@ Podemos ocultar conteúdo usando **comentários HTML**.
 
 Exemplo de uso da sintaxe:
 
-\<!-- Este texto não aparecerá no documento renderizado -->
+`\<!-- Este texto não aparecerá no documento renderizado -->`
 
 Esse recurso é útil para colocar **anotações no arquivo sem que apareçam para quem está lendo**.
 
@@ -581,12 +583,14 @@ Também é possível esconder partes do texto usando a tag HTML `<details>`.
 
 Exemplo de uso da sintaxe:
 
+```
 \<details>  
 \<summary>Clique para expandir\</summary>
 
 Conteúdo oculto que aparece quando o usuário clicar.
 
 \</details>
+```
 
 Esse recurso é muito usado em **documentações grandes e arquivos README**.
 
