@@ -433,7 +433,7 @@ Como é a sintaxe:
 
 ---
 
-16. Badges (Indicadores de Projeto)
+## 16. Badges (Indicadores de Projeto)
 
 Badges são pequenos indicadores visuais usados em READMEs.
 
@@ -516,7 +516,8 @@ Como é a sintaxe:
 
 ```
 (```)
-`# Isso seria um título sem não tivesse crase.`
+# Título
+## Subtítulo
 (```)
 ```
 
@@ -575,11 +576,7 @@ Segunda linha
 
 Podemos ocultar conteúdo usando **comentários HTML**.
 
-Exemplo de uso:
-
-<!-- Este texto não aparecerá no documento renderizado -->
-
-Como é a sintaxe:
+Exemplo de uso da sintaxe:
 
 `<!-- Este texto não aparecerá no documento renderizado -->`
 
@@ -594,7 +591,7 @@ Exemplo de uso:
 
 ~~Este texto foi removido~~
 
-Como fica a sintaxe:
+Como é a sintaxe:
 
 `~~Este texto foi removido~~`
 
@@ -636,7 +633,7 @@ Exemplos:
 
 <i>Texto em itálico usando HTML</i>
 
-Como fica a sintaxe:
+Como é a sintaxe:
 
 ```
 <p>Este é um parágrafo usando HTML dentro do Markdown.</p>
