@@ -485,21 +485,7 @@ Como fica a sintaxe:
 <i>Texto em itálico usando HTML</i>
 ```
 
-Também podemos usar HTML para criar elementos mais complexos:
-
-Exemplo:
-
-<div style="color: blue;">
-Este texto foi estilizado usando HTML dentro do Markdown.
-</div>
-
-Como fica a sintaxe:
-
-```
-<div style="color: blue;">
-Este texto foi estilizado usando HTML dentro do Markdown.
-</div>
-```
+Também podemos usar HTML para criar elementos mais complexos como estilização, caso o documento permita.
 
 ### Observação importante
 
