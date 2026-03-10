@@ -459,7 +459,140 @@ Como é a sintaxe:
 
 ---
 
-## 17. Observações
+## 17. Recursos de Escape e Formatação Especial
+
+Além das formatações comuns, o Markdown também possui recursos que permitem **anular formatações**, **quebrar linhas**, **ocultar conteúdo** e **mostrar código literal**.  
+
+Esses recursos são muito úteis principalmente quando estamos **explicando a própria sintaxe do Markdown em documentação ou exercícios**.
+
+### Escapar caracteres especiais
+
+Para evitar que um símbolo seja interpretado como formatação, podemos usar a **barra invertida `\`** antes do caractere.
+
+Exemplo de uso da sintaxe:
+
+\# Isto não será interpretado como título  
+
+\* Isto não será interpretado como itálico  
+
+Assim o Markdown mostra os símbolos normalmente sem aplicar a formatação.
+
+### Mostrar código com crase
+
+A **crase (`)** permite mostrar código ou sintaxe sem aplicar formatação.
+
+Exemplo da sintaxe:
+
+Use `#` para criar títulos.
+
+Esse recurso é muito usado para explicar **comandos, funções ou sintaxe de programação**.
+
+### Blocos de código
+
+Quando precisamos mostrar **várias linhas de código**, usamos **três crases ```** para criar um bloco de código.
+
+Exemplo de sintaxe da sintaxe:
+
+```
+# Título
+## Subtítulo
+```
+
+Nesse caso o Markdown exibirá o conteúdo exatamente como foi escrito.
+
+### Quebra de linha
+
+No Markdown existem três formas comuns de quebrar linha.
+
+A primeira forma é deixar **uma linha em branco entre parágrafos**.
+
+Exemplo de uso:
+
+Primeira linha
+
+Segunda linha
+
+Como fica a sintaxe:
+
+```
+Primeira linha
+(Linha em branco)
+Segunda linha
+```
+
+A segunda forma é adicionar **dois espaços no final da linha** antes de pressionar Enter.
+
+Exemplo de uso:
+
+Primeira linha  
+Segunda linha  
+
+Como fica a sintaxe:
+
+```
+Primeira linha(2 espaços)
+Segunda linha(2 espaços)
+```
+
+A terceira forma é adicionando a tag HTML <br> no final da primeira linha.
+
+Exemplo de uso:
+
+Primeira linha
+
+Segunda linha
+
+Como fica a sintaxe:
+
+```
+Primeira linha<br>
+Segunda linha
+```
+
+### Ocultar partes do texto
+
+Podemos ocultar conteúdo usando **comentários HTML**.
+
+Exemplo de uso da sintaxe:
+
+\<!-- Este texto não aparecerá no documento renderizado -->
+
+Esse recurso é útil para colocar **anotações no arquivo sem que apareçam para quem está lendo**.
+
+
+### Texto riscado
+
+Podemos marcar texto removido usando `~~`.
+
+Exemplo de uso:
+
+~~Este texto foi removido~~
+
+Como fica a sintaxe:
+
+`~~Este texto foi removido~~`
+
+Esse recurso indica **informações desatualizadas ou corrigidas**.
+
+
+### Conteúdo oculto expansível
+
+Também é possível esconder partes do texto usando a tag HTML `<details>`.
+
+Exemplo de uso da sintaxe:
+
+\<details>  
+\<summary>Clique para expandir\</summary>
+
+Conteúdo oculto que aparece quando o usuário clicar.
+
+\</details>
+
+Esse recurso é muito usado em **documentações grandes e arquivos README**.
+
+---
+
+## 18. Observações
 
 O Markdown também permite utilizar **HTML dentro do documento**.
 
