@@ -487,7 +487,7 @@ Assim o Markdown mostra os símbolos normalmente sem aplicar a formatação.
 
 ### Mostrar código com crase
 
-A **crase (`)** permite mostrar código ou sintaxe sem aplicar formatação.
+A **crase `** permite mostrar código ou sintaxe sem aplicar formatação.
 
 Exemplo de uso:
 
