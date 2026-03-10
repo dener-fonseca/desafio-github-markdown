@@ -56,7 +56,7 @@ Exemplo:
 
 **Negrito**
 
-Como fica a sintaxe:
+Como é a sintaxe:
 
 `**Negrito**`
 
@@ -68,7 +68,7 @@ Exemplo:
 
 *Itálico*
 
-Como fica a sintaxe:
+Como é a sintaxe:
 
 `*Itálico*`
 
@@ -80,7 +80,7 @@ Exemplo:
 
 ***Negrito e Itálico***
 
-Como fica a sintaxe:
+Como é a sintaxe:
 
 `***Negrito e Itálico***`
 
@@ -186,10 +186,10 @@ print("Olá mundo")
 Como é a sintaxe:
 
 ```
-(Três Crases)
+(```)
 print("Hello World")
 print("Olá mundo")
-(Três Crases)
+(```)
 ```
 
 ---
@@ -469,7 +469,13 @@ Esses recursos são muito úteis principalmente quando estamos **explicando a pr
 
 Para evitar que um símbolo seja interpretado como formatação, podemos usar a **barra invertida `\`** antes do caractere.
 
-Exemplo de uso da sintaxe:
+Exemplo de uso:
+
+\# Isto não será interpretado como título  
+
+\* Isto não será interpretado como itálico  
+
+Como é a sintaxe:
 
 ```
 \# Isto não será interpretado como título  
@@ -483,9 +489,15 @@ Assim o Markdown mostra os símbolos normalmente sem aplicar a formatação.
 
 A **crase (`)** permite mostrar código ou sintaxe sem aplicar formatação.
 
-Exemplo da sintaxe:
+Exemplo de uso:
 
 `# Isso seria um título sem não tivesse crase.`
+
+Como é a sintaxe:
+
+```
+`# Isso seria um título sem não tivesse crase.`
+```
 
 Esse recurso é muito usado para explicar **comandos, funções ou sintaxe de programação**.
 
@@ -493,11 +505,19 @@ Esse recurso é muito usado para explicar **comandos, funções ou sintaxe de pr
 
 Quando precisamos mostrar **várias linhas de código**, usamos **três crases ```** para criar um bloco de código.
 
-Exemplo de sintaxe da sintaxe:
+Exemplo de uso:
 
 ```
 # Título
 ## Subtítulo
+```
+
+Como é a sintaxe:
+
+```
+(```)
+`# Isso seria um título sem não tivesse crase.`
+(```)
 ```
 
 Nesse caso o Markdown exibirá o conteúdo exatamente como foi escrito.
@@ -555,9 +575,13 @@ Segunda linha
 
 Podemos ocultar conteúdo usando **comentários HTML**.
 
-Exemplo de uso da sintaxe:
+Exemplo de uso:
 
-`\<!-- Este texto não aparecerá no documento renderizado -->`
+<!-- Este texto não aparecerá no documento renderizado -->
+
+Como é a sintaxe:
+
+`<!-- Este texto não aparecerá no documento renderizado -->`
 
 Esse recurso é útil para colocar **anotações no arquivo sem que apareçam para quem está lendo**.
 
