@@ -457,6 +457,55 @@ Como é a sintaxe:
 
 `![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 `
+---
+
+## 17. Observações
+
+O Markdown também permite utilizar **HTML dentro do documento**.
+
+Isso acontece porque muitos renderizadores de Markdown, incluindo o GitHub, suportam **tags HTML misturadas com Markdown**.
+
+Essa funcionalidade é útil quando precisamos de **formatações que não existem no Markdown padrão**.
+
+Exemplos:
+
+<p>Este é um parágrafo usando HTML dentro do Markdown.</p>
+
+<b>Texto em negrito usando HTML</b>
+
+<i>Texto em itálico usando HTML</i>
+
+Como fica a sintaxe:
+
+```
+<p>Este é um parágrafo usando HTML dentro do Markdown.</p>
+
+<b>Texto em negrito usando HTML</b>
+
+<i>Texto em itálico usando HTML</i>
+```
+
+Também podemos usar HTML para criar elementos mais complexos:
+
+Exemplo:
+
+<div style="color: blue;">
+Este texto foi estilizado usando HTML dentro do Markdown.
+</div>
+
+Como fica a sintaxe:
+
+```
+<div style="color: blue;">
+Este texto foi estilizado usando HTML dentro do Markdown.
+</div>
+```
+
+### Observação importante
+
+Apesar de suportar HTML, é recomendado usar **Markdown sempre que possível**, pois ele mantém o documento **mais simples e fácil de ler**.
+
+O HTML deve ser usado apenas quando for necessário adicionar **formatações ou estruturas que o Markdown não possui**.
 
 ---
 
